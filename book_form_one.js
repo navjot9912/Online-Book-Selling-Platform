@@ -21,6 +21,7 @@ function bookname(){
     // let d =document.getElementById("category").value;
     
     if(a=='' && b=='' && c=='' && d==''){
+
         alert("Enter Book Name")
     }else{
 
