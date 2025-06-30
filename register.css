@@ -1,0 +1,120 @@
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    height: 500px;
+  background-color:aliceblue;
+    width: 800px;
+    grid-gap: 20px;
+    border: 10px skyblue double;
+    position: absolute;
+    top:150px;
+    left:400px;
+    border-radius:15px;;
+}
+/* .maindiv>div{
+    border: purple solid 2px; 
+} */
+.one{
+    background-color: rgb(80, 190, 234);
+    grid-row-start:1;
+    grid-row-end: 15;
+    width: 400px;
+    /* border: 4px purple solid;
+    border-top: 4px;
+    border-left: 4px;
+    border-bottom: 4px;
+    border-radius: 15px; */
+}
+img{
+    position: relative;
+    top:120px;
+    left:80px;
+    
+}
+.two{
+  font-size: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 400px;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(80, 190, 234);
+}
+.input{
+    background: transparent;
+   height: 25px;
+   width: 200px;
+   border-top: 5px;
+   border-left: 5px;
+   border-right: 5px;
+   
+
+}
+.submit{
+    height: 35px;
+    width: 300px;
+    background-color: rgb(80, 190, 234);
+}
+.submit:hover{
+    height:37px ;
+    width: 302px;;
+}
+.login{
+    color: rgb(80, 190, 234);
+}
+.login:hover{
+    color: red;
+}
+.reg{
+    color: black;
+
+}
+.reg:hover{
+color: red;
+}
+.contanier{
+    width:400px;
+    height: 250px;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    border: black solid 1px;
+    border-radius: 5px;
+    transform: translate(-50%,-50%) scale(0.1);
+    position:absolute;
+    top:0;
+    left:50%;
+    visibility: hidden;
+    transition: transform 0.4, top 0.4s;
+}
+
+/* .contanier>div{
+    border: purple 2px solid;
+} */
+.center{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    height: 100px;
+}
+.cheak{
+    position: relative;
+    top:10px;
+    left:150px;
+    height: 80px;
+    width: 80px;;
+}
+.ceck1{
+    height: 100px;
+}
+.open-popup{
+    visibility: visible;
+    top:20%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.ok{
+   text-decoration: none;
+}
+
+
+
+

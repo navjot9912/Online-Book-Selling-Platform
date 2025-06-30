@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            register page
+        </title>
+        <link rel="stylesheet" href="register.css">
+        <script src="register.js"></script>
+    </head>
+    <body background="/memorial/memorial/images/dk4.jpg">
+
+        
+        <div class="maindiv">
+            <div class="one"><img src="book_logo2.png" height="150" width="250"> </div>
+            <div class="two"><b><a href="/memorial/loginpage.html" target="_blank" class="login">Login</a></b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font color="black"><b><a href="#" class="reg">REGISTER</a></b></font> </div>
+            <div></div>
+            <div>Enter User Name</div>
+            <div><input type="text" placeholder="Enter User Name" class="input" id="usern" required> </div>
+            <div></div>
+            <div>Email or Phone </div>
+            <div><input type="text" placeholder="Enter Your Email" class="input" id="email_or_phone" required> </div>
+            <div> </div>
+            <div> password</div>
+            <div><input type="password" placeholder="Password" class="input" id="password" required> </div>
+            <!-- <div> <font color="skyblue"><b>FORGET PASSWORD ?</b></font></div> -->
+            <div> </div>
+            <div><a><input type="submit" value="REGISTER" class="submit" onclick="showdata()" ></a></a></div>
+            <div> </div>
+        </div>
+        <div class="contanier" id="popup">
+            <div class="ceck1"><img src="/memorial/check.png" height="50" width="50" class="cheak"></div>
+            <div class="center">Thank You !<br>your account has been successfully registered<br>
+            <button type="button" onclick="closepopup()"><a href="/memorial/loginpage.html" class="ok">ok</a></button>
+            </div>
+        </div>
+        <script>
+                      let popup=document.getElementById("popup");
+                      function openpopup(){
+                          popup.classList.add("open-popup");
+                      }
+                      function closepopup(){
+                          popup.classList.remove("open-popup");
+                      }
+        </script>
+              
+       
+    </body>
+</html>
